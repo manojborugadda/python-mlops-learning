@@ -17,3 +17,10 @@ print(a)
 
 b = 10
 print(b)
+
+######################
+
+import keyword
+print(keyword.kwlist)  # This will print the list of reserved keywords in Python.
+
+print("total number of keywords : ", len(keyword.kwlist))  # This will print the number of reserved keywords in Python.
