@@ -20,20 +20,20 @@
 An object is like a box that holds *data* (attributes) and tools (methods) to work with that data.
 
 Key Features of Objects:
-1️⃣ Data: This is the information stored in the object (e.g., numbers, strings).
-2️⃣ Behavior: These are the actions or operations the object can perform (e.g., methods).
-3️⃣ Type: Every object has a type (e.g., int, str, list).
+- 1️⃣ Data: This is the information stored in the object (e.g., numbers, strings).
+- 2️⃣ Behavior: These are the actions or operations the object can perform (e.g., methods).
+- 3️⃣ Type: Every object has a type (e.g., int, str, list).
 
 
 # Analogy:
 Think of an object like a smartphone:
 
-*Data*: The apps and files stored on the phone.
-*Behavior*: The phone’s tools (e.g., making calls, sending texts).
-*Type*: The brand/model (e.g., iPhone, Samsung).
+- *Data*: The apps and files stored on the phone.
+- *Behavior*: The phone’s tools (e.g., making calls, sending texts).
+- *Type*: The brand/model (e.g., iPhone, Samsung).
 
 # Key points about data types in Python:
-Dynamic typing: Python is dynamically typed, which means you don’t need to declare the type of a variable when you create it. The type is determined at runtime based on the value assigned to the variable.
-Type conversion: Python provides built-in functions for converting between different data types, such as `int()`, `float()`, `str()`, etc.
-Mutable vs Immutable: Some data types in Python are mutable (can be changed after creation) like lists and dictionaries, while others are immutable (cannot be changed after creation) like strings and tuples.
-Type checking: You can check the type of a variable using the `type()` function, which returns the data type of the variable. For example, `type(42)` will return `<class 'int'>`.
+- Dynamic typing: Python is dynamically typed, which means you don’t need to declare the type of a variable when you create it. The type is determined at runtime based on the value assigned to the variable.
+- Type conversion: Python provides built-in functions for converting between different data types, such as `int()`, `float()`, `str()`, etc.
+- Mutable vs Immutable: Some data types in Python are mutable (can be changed after creation) like lists and dictionaries, while others are immutable (cannot be changed after creation) like strings and tuples.
+- Type checking: You can check the type of a variable using the `type()` function, which returns the data type of the variable. For example, `type(42)` will return `<class 'int'>`.
