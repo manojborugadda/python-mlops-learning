@@ -22,3 +22,28 @@ Loop control statements are used to change the course of iteration or exit a loo
 | 1 | Break Statement | Terminates the loop's execution and transfers control to the statement following the loop. |
 | 2 | Continue Statement | Skips the current iteration of the loop. The remaining code in the loop body is not executed for that iteration. |
 | 3 | Pass Statement | Used when a statement is syntactically required but no code needs to be executed. Useful as a placeholder. |
+
+
+# PASS and CONTINUE statements
+continue:
+
+    - used inside loops (for / while)
+    - skips rest of current iteration and moves to next iteration
+    - affects flow control
+pass:
+
+    - no-op statement, does nothing
+    - placeholder when syntax needs a statement (empty block, stub function/class)
+    - does not alter loop iteration by itself
+
+```python
+for i in range(5):
+    if i % 2 == 0:
+        continue   # go to next i
+    print(i)       # prints 1, 3
+
+for i in range(3):
+    if i == 1:
+        pass       # nothing happens
+    print(i)       # prints 0, 1, 2
+```
