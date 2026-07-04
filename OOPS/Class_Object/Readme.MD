@@ -1,4 +1,32 @@
+# Class and Object
+A class is a blueprint or template for creating objects.
+An object is an instance of a class created from that blueprint.
 
+Every object has two main parts:
+- Attributes: what the object has
+- Methods: what the object can do
+
+```python
+class Dog:
+    def __init__(self, name):
+        self.name = name   # attribute
+
+    def bark(self):      # method
+        print("Woof!")
+```
+
+Here:
+
+name is an attribute because it describes the dog
+bark() is a method because it defines an action the dog can perform
+
+Example usage:
+```python
+dog1 = Dog("Buddy")
+
+print(dog1.name)   # attribute
+dog1.bark()        # method
+```
 
 
 # Class vs Instance Attributes
