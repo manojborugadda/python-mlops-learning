@@ -77,4 +77,4 @@ print(next(g))  # 59
 print("Remaining primes from generator:")
 for p in g:
     print(p, end=" ")
-print()
+# print()
