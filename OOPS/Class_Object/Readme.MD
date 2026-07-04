@@ -6,6 +6,10 @@ Every object has two main parts:
 - Attributes: what the object has
 - Methods: what the object can do
 
+#  `self` Parameter
+- The self parameter is a reference to the current instance of the class.
+- It is used to access properties and methods that belong to the class.
+
 ```python
 class Dog:
     def __init__(self, name):

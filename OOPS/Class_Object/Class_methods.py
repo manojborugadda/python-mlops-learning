@@ -2,15 +2,19 @@
 # creating methods in the class
 
 class Person:
-    def __init__(self, name="roger federer", age=7):
+    def __init__(self, name="Roger Federer", age=37):
         self.name = name
         self.age = age
 
     def greet(self):
         print(f"Hello, my name is {self.name} and I am {self.age} years old.")
     
+person2 = Person()
+person2.greet()
 person1 = Person("Dominic Theim", 30)
 person1.greet()  # Output: Hello, my name is Dominic Theim and I am 30 years old.
+person3 = Person("Rafael Nadal", 36)
+person3.greet()  # Output: Hello, my name is Rafael Nadal and I am 36 years old.
 
 print("###############################################################################################")
 
