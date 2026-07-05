@@ -26,6 +26,10 @@
 - Hybrid Inheritance
 
 
+    ## single inheritance
+    When a class is derived from a single base class, it is called single inheritance. The derived class inherits all the features of the base class.
+    ![alt text](image-5.png)
+
     ## multiple inheritance
     When a class can be derived from more than one base class, it is called multiple inheritance. The derived class inherits all the features of the base classes.
 
@@ -43,12 +47,14 @@
 
     ## hybrid inheritance
     A classic example of `hybrid inheritance` is the `"Diamond Relationship"`. It combines hierarchical inheritance (one parent, multiple children) and multiple inheritance (multiple parents, one child)
-
+```
      [ Device ]          <-- Base Class
        /      \
   [ Camera ]  [ Phone ]   <-- Hierarchical Inheritance
        \      /
     [ SmartPhone ]        <-- Multiple & Multilevel Inheritance
 
+```
 
-    
+  ![alt text](image-4.png)
+
