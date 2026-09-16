@@ -10,7 +10,7 @@ def greet():
 def run(func):
     func() # calling the function
 
-run(greet)
+run(greet) 
 
 
 #Step2 : A function inside a function
