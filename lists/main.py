@@ -13,5 +13,5 @@ first, second, *remaining = numbers
 
 print("first is :",first)
 print("second is :",second)
-print("remaining values are : ",remaining)
+print("remaining values are : ",remaining) 
 
